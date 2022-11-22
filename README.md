@@ -9,6 +9,6 @@ The tool is based on Qt. On Windows use QT Creator to compile. On Linux call the
 ## Execution
 The scans all existing serial ports for the one with the proper name and sends 0x03 byte to make the tracker send the current configuration. The paramters can then be changed. In Normal mode only a few important parameters are shown with dropdown boxes for selection. In Export Mode all paramters can be changed but raw values need to be used.
 
-![Alt text](pictures/normal-mode.png?raw=true "Title")
+![Alt text](pictures/normal_mode.png?raw=true "Normal Mode")
 
-![Alt text](pictures/export-mode.png?raw=true "Title")
+![Alt text](pictures/expert-mode.png?raw=true "Export Mode")
